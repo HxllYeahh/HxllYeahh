@@ -190,4 +190,16 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddButton({
+	Name = "FE NEKO SEX",
+	Callback = function()
+      		game.Players.LocalPlayer:Ban(" TRICKED YOU HAHAHAHAAH")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
 OrionLib:Init()
