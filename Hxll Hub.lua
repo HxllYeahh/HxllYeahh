@@ -15,7 +15,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 
 local Tab = Window:MakeTab({
 	Name = "Prison Life",
-	Icon = "rbxassetid://4483345998",
+	Icon = "https://create.roblox.com/store/asset/811846959",
 	PremiumOnly = false
 })
 
@@ -72,7 +72,7 @@ Callback = <function> - The function of the button.
 
 local Tab = Window:MakeTab({
 	Name = "Ugc Scripts",
-	Icon = "rbxassetid://4483345998",
+	Icon = "https://create.roblox.com/store/asset/14619459681",
 	PremiumOnly = false
 })
 
@@ -104,7 +104,7 @@ Callback = <function> - The function of the button.
 
 local Tab = Window:MakeTab({
 	Name = "The Strongest Battle Grounds Scripts",
-	Icon = "rbxassetid://4483345998",
+	Icon = "https://create.roblox.com/store/asset/17420340902",
 	PremiumOnly = false
 })
 
@@ -190,10 +190,25 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Tab:AddLabel("Credits to HxllYeah")
+Tab:AddLabel("Credits to Everyone That made the Scripts")
+
 Tab:AddButton({
-	Name = "FE NEKO SEX",
+	Name = "Copy ",
 	Callback = function()
-      		game.Players.LocalPlayer:Ban(" TRICKED YOU HAHAHAHAAH")
+      		setclipboard("no discord")
   	end    
 })
 
